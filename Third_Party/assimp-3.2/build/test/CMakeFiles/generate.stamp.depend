@@ -1,0 +1,21 @@
+# CMake generation dependency list for this directory.
+C:/Users/Win/Documents/assimp-3.2/assimp-3.2/test/CMakeLists.txt
+C:/Users/Win/Documents/assimp-3.2/assimp-3.2/cmake-modules/AddGTest.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindThreads.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckLibraryExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckSymbolExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/ExternalProject.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindGit.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindGit.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/RepositoryInfo.txt.in
+C:/Users/Win/Documents/assimp-3.2/build/test/gtest/tmp/gtest-cfgcmd.txt.in

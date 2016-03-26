@@ -1,0 +1,24 @@
+﻿Build started 2016-03-25 18:54:04.
+     1>Project "C:\Users\Win\Documents\Bullet START HERE\Build\src\Bullet3Dynamics\Bullet3Dynamics.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Win\Documents\bullet3-2.83.7\src" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _DEBUG /D _DEBUG /D USE_GRAPHICAL_BENCHMARK /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /arch:SSE /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"Bullet3Dynamics.dir\Debug\\" /Fd"Bullet3Dynamics.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\Users\Win\Documents\bullet3-2.83.7\src\Bullet3Dynamics\b3CpuRigidBodyPipeline.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\Bullet3Dynamics\ConstraintSolver\b3FixedConstraint.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\Bullet3Dynamics\ConstraintSolver\b3Generic6DofConstraint.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\Bullet3Dynamics\ConstraintSolver\b3PgsJacobiSolver.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\Bullet3Dynamics\ConstraintSolver\b3Point2PointConstraint.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\Bullet3Dynamics\ConstraintSolver\b3TypedConstraint.cpp"
+         b3CpuRigidBodyPipeline.cpp
+         b3FixedConstraint.cpp
+         b3Generic6DofConstraint.cpp
+         b3PgsJacobiSolver.cpp
+         b3Point2PointConstraint.cpp
+         b3TypedConstraint.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Win\Documents\Bullet START HERE\Build\lib\Debug\Bullet3Dynamics_Debug.lib" /NOLOGO  /machine:X86 Bullet3Dynamics.dir\Debug\b3CpuRigidBodyPipeline.obj
+         Bullet3Dynamics.dir\Debug\b3FixedConstraint.obj
+         Bullet3Dynamics.dir\Debug\b3Generic6DofConstraint.obj
+         Bullet3Dynamics.dir\Debug\b3PgsJacobiSolver.obj
+         Bullet3Dynamics.dir\Debug\b3Point2PointConstraint.obj
+         Bullet3Dynamics.dir\Debug\b3TypedConstraint.obj
+         Bullet3Dynamics.vcxproj -> C:\Users\Win\Documents\Bullet START HERE\Build\lib\Debug\Bullet3Dynamics_Debug.lib
+     1>Done Building Project "C:\Users\Win\Documents\Bullet START HERE\Build\src\Bullet3Dynamics\Bullet3Dynamics.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.87

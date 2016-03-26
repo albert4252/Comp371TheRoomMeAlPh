@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Win\Documents\assimp-3.2\build\CMakeFiles\64bdb0c5636deb0983198b8cd7d179f2\gtest-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Win\Documents\assimp-3.2\build\CMakeFiles\64bdb0c5636deb0983198b8cd7d179f2\gtest-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Win\Documents\assimp-3.2\build\CMakeFiles\64bdb0c5636deb0983198b8cd7d179f2\gtest-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Win\Documents\assimp-3.2\build\CMakeFiles\64bdb0c5636deb0983198b8cd7d179f2\gtest-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Win\Documents\assimp-3.2\build\CMakeFiles\64bdb0c5636deb0983198b8cd7d179f2\gtest-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Win\Documents\assimp-3.2\build\CMakeFiles\64bdb0c5636deb0983198b8cd7d179f2\gtest-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Win\Documents\assimp-3.2\build\CMakeFiles\64bdb0c5636deb0983198b8cd7d179f2\gtest-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Win\Documents\assimp-3.2\build\CMakeFiles\97d176c990c8839ae34754b57a205144\gtest-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Win\Documents\assimp-3.2\build\CMakeFiles\983560b999ca1f5070c93bf7268a8bca\gtest.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Win\Documents\assimp-3.2\build\test\CMakeFiles\gtest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DD371C56-047A-34C3-82A1-399A10F9A0E0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

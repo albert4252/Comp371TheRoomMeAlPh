@@ -1,0 +1,44 @@
+﻿Build started 2016-03-09 19:23:48.
+     1>Project "C:\Users\Win\Documents\assimp-3.2\build\contrib\zlib\zlibstatic.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/Win/Documents/assimp-3.2/assimp-3.2/contrib/zlib/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\Win\Documents\assimp-3.2\build\contrib\zlib\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Win\Documents\assimp-3.2\build" /I"C:\Users\Win\Documents\assimp-3.2\assimp-3.2\include" /I"C:\Users\Win\Documents\assimp-3.2\assimp-3.2\code\BoostWorkaround" /I"C:\Users\Win\Documents\assimp-3.2\assimp-3.2\contrib\zlib" /I"C:\Users\Win\Documents\assimp-3.2\build\contrib\zlib" /I"C:\Users\Win\Documents\assimp-3.2\assimp-3.2" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D OPENDDL_NO_USE_CPP11 /D ASSIMP_BUILD_BOOST_WORKAROUND /D NO_FSEEKO /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"zlibstatic.dir\Debug\\" /Fd"zlibstatic.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\contrib\zlib\adler32.c" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\contrib\zlib\compress.c" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\contrib\zlib\crc32.c" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\contrib\zlib\deflate.c" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\contrib\zlib\gzclose.c" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\contrib\zlib\gzlib.c" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\contrib\zlib\gzread.c" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\contrib\zlib\gzwrite.c" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\contrib\zlib\inflate.c" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\contrib\zlib\infback.c" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\contrib\zlib\inftrees.c" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\contrib\zlib\inffast.c" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\contrib\zlib\trees.c" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\contrib\zlib\uncompr.c" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\contrib\zlib\zutil.c"
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         gzclose.c
+         gzlib.c
+         gzread.c
+         gzwrite.c
+         inflate.c
+         infback.c
+         inftrees.c
+         inffast.c
+         trees.c
+         uncompr.c
+         zutil.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Win\Documents\assimp-3.2\build\contrib\zlib\Debug\zlibstaticd.lib" /NOLOGO  /machine:X86 zlibstatic.dir\Debug\adler32.obj
+         zlibstatic.dir\Debug\compress.obj
+         zlibstatic.dir\Debug\crc32.obj
+         zlibstatic.dir\Debug\deflate.obj
+         zlibstatic.dir\Debug\gzclose.obj
+         zlibstatic.dir\Debug\gzlib.obj
+         zlibstatic.dir\Debug\gzread.obj
+         zlibstatic.dir\Debug\gzwrite.obj
+         zlibstatic.dir\Debug\inflate.obj
+         zlibstatic.dir\Debug\infback.obj
+         zlibstatic.dir\Debug\inftrees.obj
+         zlibstatic.dir\Debug\inffast.obj
+         zlibstatic.dir\Debug\trees.obj
+         zlibstatic.dir\Debug\uncompr.obj
+         zlibstatic.dir\Debug\zutil.obj
+         zlibstatic.vcxproj -> C:\Users\Win\Documents\assimp-3.2\build\contrib\zlib\Debug\zlibstaticd.lib
+     1>Done Building Project "C:\Users\Win\Documents\assimp-3.2\build\contrib\zlib\zlibstatic.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.77

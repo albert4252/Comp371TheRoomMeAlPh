@@ -1,0 +1,55 @@
+﻿Build started 2016-03-09 19:35:40.
+     1>Project "C:\Users\Win\Documents\assimp-3.2\build\tools\assimp_view\assimp_viewer.vcxproj" on node 3 (Build target(s)).
+     1>PreBuildEvent:
+         setlocal
+         "C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Win/Documents/assimp-3.2/build/code/Debug/assimp-vc120-mtd.dll C:/Users/Win/Documents/assimp-3.2/build/tools/assimp_view/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Win\Documents\assimp-3.2\build" /I"C:\Users\Win\Documents\assimp-3.2\assimp-3.2\include" /I"C:\Users\Win\Documents\assimp-3.2\assimp-3.2\code\BoostWorkaround" /I"C:\Users\Win\Documents\assimp-3.2\assimp-3.2\contrib\zlib" /I"C:\Users\Win\Documents\assimp-3.2\build\contrib\zlib" /I"C:\Users\Win\Documents\assimp-3.2\assimp-3.2\code" /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D OPENDDL_NO_USE_CPP11 /D ASSIMP_BUILD_BOOST_WORKAROUND /D ASSIMP_BUILD_NO_EXPORT /D ASSIMP_BUILD_NO_C4D_IMPORTER /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"assimp_viewer.dir\Debug\\" /Fd"assimp_viewer.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\tools\assimp_view\AnimEvaluator.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\tools\assimp_view\Background.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\tools\assimp_view\Display.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\tools\assimp_view\HelpDialog.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\tools\assimp_view\Input.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\tools\assimp_view\LogDisplay.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\tools\assimp_view\LogWindow.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\tools\assimp_view\Material.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\tools\assimp_view\MeshRenderer.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\tools\assimp_view\MessageProc.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\tools\assimp_view\Normals.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\tools\assimp_view\SceneAnimator.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\tools\assimp_view\Shaders.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\tools\assimp_view\assimp_view.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\tools\assimp_view\stdafx.cpp"
+         AnimEvaluator.cpp
+         Background.cpp
+         Display.cpp
+         HelpDialog.cpp
+         Input.cpp
+         LogDisplay.cpp
+         LogWindow.cpp
+         Material.cpp
+         MeshRenderer.cpp
+         MessageProc.cpp
+         Normals.cpp
+         SceneAnimator.cpp
+         Shaders.cpp
+         assimp_view.cpp
+         stdafx.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D WIN32 /D _WINDOWS /D _DEBUG /D OPENDDL_NO_USE_CPP11 /D ASSIMP_BUILD_BOOST_WORKAROUND /D ASSIMP_BUILD_NO_EXPORT /D ASSIMP_BUILD_NO_C4D_IMPORTER /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\\\"Debug\\\"" /l"0x0409" /I"C:\Users\Win\Documents\assimp-3.2\build" /I"C:\Users\Win\Documents\assimp-3.2\assimp-3.2\include" /I"C:\Users\Win\Documents\assimp-3.2\assimp-3.2\code\BoostWorkaround" /I"C:\Users\Win\Documents\assimp-3.2\assimp-3.2\contrib\zlib" /I"C:\Users\Win\Documents\assimp-3.2\build\contrib\zlib" /I"C:\Users\Win\Documents\assimp-3.2\assimp-3.2\code" /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /nologo /fo"assimp_viewer.dir\Debug\assimp_view.res" C:\Users\Win\Documents\assimp-3.2\assimp-3.2\tools\assimp_view\assimp_view.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Win\Documents\assimp-3.2\build\tools\assimp_view\Debug\assimp_viewerd.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:/Users/Win/Documents/assimp-3.2/build" /LIBPATH:"C:/Users/Win/Documents/assimp-3.2/build/Debug" /LIBPATH:/lib /LIBPATH:/lib/Debug kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "..\..\code\Debug\assimp-vc120-mtd.lib" "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3d9.lib" "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib" comctl32.lib winmm.lib ..\..\contrib\zlib\Debug\zlibstaticd.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Win/Documents/assimp-3.2/build/tools/assimp_view/Debug/assimp_viewerd.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Win/Documents/assimp-3.2/build/tools/assimp_view/Debug/assimp_viewerd.lib" /MACHINE:X86 /SAFESEH  /machine:X86 assimp_viewer.dir\Debug\assimp_view.res
+         assimp_viewer.dir\Debug\AnimEvaluator.obj
+         assimp_viewer.dir\Debug\Background.obj
+         assimp_viewer.dir\Debug\Display.obj
+         assimp_viewer.dir\Debug\HelpDialog.obj
+         assimp_viewer.dir\Debug\Input.obj
+         assimp_viewer.dir\Debug\LogDisplay.obj
+         assimp_viewer.dir\Debug\LogWindow.obj
+         assimp_viewer.dir\Debug\Material.obj
+         assimp_viewer.dir\Debug\MeshRenderer.obj
+         assimp_viewer.dir\Debug\MessageProc.obj
+         assimp_viewer.dir\Debug\Normals.obj
+         assimp_viewer.dir\Debug\SceneAnimator.obj
+         assimp_viewer.dir\Debug\Shaders.obj
+         assimp_viewer.dir\Debug\assimp_view.obj
+         assimp_viewer.dir\Debug\stdafx.obj
+         assimp_viewer.vcxproj -> C:\Users\Win\Documents\assimp-3.2\build\tools\assimp_view\Debug\assimp_viewerd.exe
+     1>Done Building Project "C:\Users\Win\Documents\assimp-3.2\build\tools\assimp_view\assimp_viewer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.64

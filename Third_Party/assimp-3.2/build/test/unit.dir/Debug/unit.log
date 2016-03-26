@@ -1,0 +1,65 @@
+﻿Build started 2016-03-09 19:42:05.
+     1>Project "C:\Users\Win\Documents\assimp-3.2\build\test\unit.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Win\Documents\assimp-3.2\build" /I"C:\Users\Win\Documents\assimp-3.2\assimp-3.2\include" /I"C:\Users\Win\Documents\assimp-3.2\assimp-3.2\code\BoostWorkaround" /I"C:\Users\Win\Documents\assimp-3.2\assimp-3.2\contrib\zlib" /I"C:\Users\Win\Documents\assimp-3.2\build\contrib\zlib" /I"C:\Users\Win\Documents\assimp-3.2\build\test\gtest\src\gtest\include" /I"C:\Users\Win\Documents\assimp-3.2\build\test\gtest\src\gtest\gtest\include" /I"C:\Users\Win\Documents\assimp-3.2\assimp-3.2\code" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D OPENDDL_NO_USE_CPP11 /D ASSIMP_BUILD_BOOST_WORKAROUND /D ASSIMP_BUILD_NO_EXPORT /D ASSIMP_BUILD_NO_C4D_IMPORTER /D "ASSIMP_TEST_MODELS_DIR=\"C:/Users/Win/Documents/assimp-3.2/assimp-3.2/test/models\"" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"unit.dir\Debug\\" /Fd"unit.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\Main.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\AssimpAPITest.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utFastAtof.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utFindDegenerates.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utFindInvalidData.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utFixInfacingNormals.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utGenNormals.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utImporter.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utImproveCacheLocality.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utIOSystem.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utJoinVertices.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utLimitBoneWeights.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utMaterialSystem.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utPretransformVertices.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utRemoveComments.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utRemoveComponent.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utRemoveRedundantMaterials.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utScenePreprocessor.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utSharedPPData.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utSortByPType.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utSplitLargeMeshes.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utTargetAnimation.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utTextureTransform.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utTriangulate.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utVertexTriangleAdjacency.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utNoBoostTest.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utColladaExportCamera.cpp" "C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utColladaExportLight.cpp"
+         Main.cpp
+         AssimpAPITest.cpp
+         utFastAtof.cpp
+         utFindDegenerates.cpp
+         utFindInvalidData.cpp
+         utFixInfacingNormals.cpp
+         utGenNormals.cpp
+         utImporter.cpp
+     1>c:\users\win\documents\assimp-3.2\assimp-3.2\test\unit\UnitTestPCH.h(11): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory (C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\Main.cpp)
+         utImproveCacheLocality.cpp
+     1>c:\users\win\documents\assimp-3.2\assimp-3.2\test\unit\UnitTestPCH.h(11): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory (C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utFastAtof.cpp)
+         utIOSystem.cpp
+     1>c:\users\win\documents\assimp-3.2\assimp-3.2\test\unit\UnitTestPCH.h(11): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory (C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\AssimpAPITest.cpp)
+     1>c:\users\win\documents\assimp-3.2\assimp-3.2\test\unit\UnitTestPCH.h(11): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory (C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utFindInvalidData.cpp)
+         utJoinVertices.cpp
+         utLimitBoneWeights.cpp
+     1>c:\users\win\documents\assimp-3.2\assimp-3.2\test\unit\UnitTestPCH.h(11): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory (C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utFindDegenerates.cpp)
+     1>c:\users\win\documents\assimp-3.2\assimp-3.2\test\unit\UnitTestPCH.h(11): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory (C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utImporter.cpp)
+         utMaterialSystem.cpp
+         utPretransformVertices.cpp
+     1>c:\users\win\documents\assimp-3.2\assimp-3.2\test\unit\UnitTestPCH.h(11): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory (C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utFixInfacingNormals.cpp)
+         utRemoveComments.cpp
+     1>c:\users\win\documents\assimp-3.2\assimp-3.2\test\unit\UnitTestPCH.h(11): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory (C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utGenNormals.cpp)
+         utRemoveComponent.cpp
+     1>c:\users\win\documents\assimp-3.2\assimp-3.2\test\unit\UnitTestPCH.h(11): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory (C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utImproveCacheLocality.cpp)
+         utRemoveRedundantMaterials.cpp
+     1>c:\users\win\documents\assimp-3.2\assimp-3.2\test\unit\UnitTestPCH.h(11): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory (C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utIOSystem.cpp)
+         utScenePreprocessor.cpp
+     1>c:\users\win\documents\assimp-3.2\assimp-3.2\test\unit\UnitTestPCH.h(11): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory (C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utLimitBoneWeights.cpp)
+         utSharedPPData.cpp
+     1>c:\users\win\documents\assimp-3.2\assimp-3.2\test\unit\UnitTestPCH.h(11): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory (C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utJoinVertices.cpp)
+         utSortByPType.cpp
+     1>c:\users\win\documents\assimp-3.2\assimp-3.2\test\unit\UnitTestPCH.h(11): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory (C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utMaterialSystem.cpp)
+         utSplitLargeMeshes.cpp
+     1>c:\users\win\documents\assimp-3.2\assimp-3.2\test\unit\UnitTestPCH.h(11): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory (C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utPretransformVertices.cpp)
+         utTargetAnimation.cpp
+     1>c:\users\win\documents\assimp-3.2\assimp-3.2\test\unit\UnitTestPCH.h(11): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory (C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utRemoveComments.cpp)
+         utTextureTransform.cpp
+     1>c:\users\win\documents\assimp-3.2\assimp-3.2\test\unit\UnitTestPCH.h(11): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory (C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utRemoveComponent.cpp)
+         utTriangulate.cpp
+     1>c:\users\win\documents\assimp-3.2\assimp-3.2\test\unit\UnitTestPCH.h(11): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory (C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utRemoveRedundantMaterials.cpp)
+         utVertexTriangleAdjacency.cpp
+     1>c:\users\win\documents\assimp-3.2\assimp-3.2\test\unit\UnitTestPCH.h(11): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory (C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utSharedPPData.cpp)
+         utNoBoostTest.cpp
+     1>c:\users\win\documents\assimp-3.2\assimp-3.2\test\unit\UnitTestPCH.h(11): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory (C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utScenePreprocessor.cpp)
+         utColladaExportCamera.cpp
+     1>c:\users\win\documents\assimp-3.2\assimp-3.2\test\unit\UnitTestPCH.h(11): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory (C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utTargetAnimation.cpp)
+     1>c:\users\win\documents\assimp-3.2\assimp-3.2\test\unit\UnitTestPCH.h(11): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory (C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utSortByPType.cpp)
+         utColladaExportLight.cpp
+     1>c:\users\win\documents\assimp-3.2\assimp-3.2\test\unit\UnitTestPCH.h(11): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory (C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utSplitLargeMeshes.cpp)
+     1>c:\users\win\documents\assimp-3.2\assimp-3.2\test\unit\UnitTestPCH.h(11): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory (C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utTriangulate.cpp)
+     1>c:\users\win\documents\assimp-3.2\assimp-3.2\test\unit\UnitTestPCH.h(11): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory (C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utTextureTransform.cpp)
+     1>c:\users\win\documents\assimp-3.2\assimp-3.2\test\unit\UnitTestPCH.h(11): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory (C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utNoBoostTest.cpp)
+     1>c:\users\win\documents\assimp-3.2\assimp-3.2\test\unit\UnitTestPCH.h(11): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory (C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utVertexTriangleAdjacency.cpp)
+     1>c:\users\win\documents\assimp-3.2\assimp-3.2\test\unit\UnitTestPCH.h(11): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory (C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utColladaExportCamera.cpp)
+     1>c:\users\win\documents\assimp-3.2\assimp-3.2\test\unit\UnitTestPCH.h(11): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory (C:\Users\Win\Documents\assimp-3.2\assimp-3.2\test\unit\utColladaExportLight.cpp)
+     1>Done Building Project "C:\Users\Win\Documents\assimp-3.2\build\test\unit.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.86

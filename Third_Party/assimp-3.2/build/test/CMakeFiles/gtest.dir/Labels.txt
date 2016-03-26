@@ -1,0 +1,14 @@
+# Target labels
+ gtest
+# Source files and their labels
+C:/Users/Win/Documents/assimp-3.2/build/test/CMakeFiles/gtest
+C:/Users/Win/Documents/assimp-3.2/assimp-3.2/test/CMakeLists.txt
+C:/Users/Win/Documents/assimp-3.2/build/CMakeFiles/983560b999ca1f5070c93bf7268a8bca/gtest.rule
+C:/Users/Win/Documents/assimp-3.2/build/CMakeFiles/97d176c990c8839ae34754b57a205144/gtest-complete.rule
+C:/Users/Win/Documents/assimp-3.2/build/CMakeFiles/64bdb0c5636deb0983198b8cd7d179f2/gtest-install.rule
+C:/Users/Win/Documents/assimp-3.2/build/CMakeFiles/64bdb0c5636deb0983198b8cd7d179f2/gtest-mkdir.rule
+C:/Users/Win/Documents/assimp-3.2/build/CMakeFiles/64bdb0c5636deb0983198b8cd7d179f2/gtest-download.rule
+C:/Users/Win/Documents/assimp-3.2/build/CMakeFiles/64bdb0c5636deb0983198b8cd7d179f2/gtest-update.rule
+C:/Users/Win/Documents/assimp-3.2/build/CMakeFiles/64bdb0c5636deb0983198b8cd7d179f2/gtest-patch.rule
+C:/Users/Win/Documents/assimp-3.2/build/CMakeFiles/64bdb0c5636deb0983198b8cd7d179f2/gtest-configure.rule
+C:/Users/Win/Documents/assimp-3.2/build/CMakeFiles/64bdb0c5636deb0983198b8cd7d179f2/gtest-build.rule

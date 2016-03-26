@@ -1,0 +1,28 @@
+﻿Build started 2016-03-09 19:42:04.
+     1>Project "C:\Users\Win\Documents\assimp-3.2\build\test\gtest.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/Win/Documents/assimp-3.2/assimp-3.2/test/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\Win\Documents\assimp-3.2\build\test\CMakeFiles\generate.stamp is up-to-date.
+         Creating directories for 'gtest'
+         Performing download step (git clone) for 'gtest'
+         -- gtest download command succeeded.  See also C:/Users/Win/Documents/assimp-3.2/build/test/gtest/src/gtest-stamp/gtest-download-*.log
+         Performing update step for 'gtest'
+         Current branch master is up to date.
+         No patch step for 'gtest'
+         Performing configure step for 'gtest'
+         CMake Error at C:/Users/Win/Documents/assimp-3.2/build/test/gtest/src/gtest-stamp/gtest-configure-Debug.cmake:16 (message):
+           Command failed: 1
+         
+            'C:/Program Files (x86)/CMake/bin/cmake.exe' '-DCMAKE_BUILD_TYPE=' '-Dgtest_force_shared_crt=ON' '-Dgtest_disable_pthreads:BOOL=OFF' '-DCMAKE_ARCHIVE_OUTPUT_DIRECTORY_DEBUG:PATH=DebugLibs' '-DCMAKE_ARCHIVE_OUTPUT_DIRECTORY_RELEASE:PATH=ReleaseLibs' '-GVisual Studio 12 2013' 'C:/Users/Win/Documents/assimp-3.2/build/test/gtest/src/gtest'
+         
+           See also
+         
+             C:/Users/Win/Documents/assimp-3.2/build/test/gtest/src/gtest-stamp/gtest-configure-*.log
+         
+         
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(170,5): error MSB6006: "cmd.exe" exited with code 1.
+     1>Done Building Project "C:\Users\Win\Documents\assimp-3.2\build\test\gtest.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.76

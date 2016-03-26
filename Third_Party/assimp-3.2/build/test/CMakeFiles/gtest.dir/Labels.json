@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "C:/Users/Win/Documents/assimp-3.2/build/test/CMakeFiles/gtest"
+		},
+		
+		{
+			"file" : "C:/Users/Win/Documents/assimp-3.2/assimp-3.2/test/CMakeLists.txt"
+		},
+		
+		{
+			"file" : "C:/Users/Win/Documents/assimp-3.2/build/CMakeFiles/983560b999ca1f5070c93bf7268a8bca/gtest.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Win/Documents/assimp-3.2/build/CMakeFiles/97d176c990c8839ae34754b57a205144/gtest-complete.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Win/Documents/assimp-3.2/build/CMakeFiles/64bdb0c5636deb0983198b8cd7d179f2/gtest-install.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Win/Documents/assimp-3.2/build/CMakeFiles/64bdb0c5636deb0983198b8cd7d179f2/gtest-mkdir.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Win/Documents/assimp-3.2/build/CMakeFiles/64bdb0c5636deb0983198b8cd7d179f2/gtest-download.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Win/Documents/assimp-3.2/build/CMakeFiles/64bdb0c5636deb0983198b8cd7d179f2/gtest-update.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Win/Documents/assimp-3.2/build/CMakeFiles/64bdb0c5636deb0983198b8cd7d179f2/gtest-patch.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Win/Documents/assimp-3.2/build/CMakeFiles/64bdb0c5636deb0983198b8cd7d179f2/gtest-configure.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Win/Documents/assimp-3.2/build/CMakeFiles/64bdb0c5636deb0983198b8cd7d179f2/gtest-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "gtest" ],
+		"name" : "gtest"
+	}
+}
