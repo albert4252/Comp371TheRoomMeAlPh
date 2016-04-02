@@ -30,6 +30,7 @@ public:
 	/*  Functions   */
 	Model(GLchar* path);
 	void Draw(Shader shader);
+	vector <Mesh> getMeshes();
 private:
 	/*  Model Data  */
 	vector<Mesh> meshes;

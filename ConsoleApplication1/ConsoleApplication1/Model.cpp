@@ -26,6 +26,11 @@ GLint TextureFromFile(const char* path, string directory)
 	return textureID;
 }
 
+vector <Mesh> Model::getMeshes()
+{
+	return meshes;
+}
+
 Model::Model(GLchar* path)
 {
 	this->loadModel(path);

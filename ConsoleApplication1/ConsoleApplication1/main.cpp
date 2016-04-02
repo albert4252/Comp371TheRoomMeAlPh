@@ -79,13 +79,6 @@ int main()
 	btDiscreteDynamicsWorld* dynamicsWorld = new btDiscreteDynamicsWorld(dispatcher, broadphase, solver, collisionConfiguration);
 	dynamicsWorld->setGravity(btVector3(0, -10, 0));
 
-	//Do_everything_else_here
-
-
-
-
-
-
 
 	// Init GLFW
 	glfwInit();
@@ -121,12 +114,17 @@ int main()
 	// Load models
 	Model ourModel("mesa.obj");
 
-	//Thing thing(&ourModel, &shader, camera);
-
-	//thingz.push_back(&thing);
-
 	// Draw in wireframe
 	//glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+
+
+
+
+	btCollisionShape* groundShape = new btStaticPlaneShape(btVector3(0, 1, 0), 0);
+	btDefaultMotionState* groundMotionState = new btDefaultMotionState(btTransform(btQuaternion(0, 0, 0, 1), btVector3(0, -200, 0)));
+
+
+
 
 	// Game loop
 	while (!glfwWindowShouldClose(window))
@@ -143,7 +141,7 @@ int main()
 
 
 		// Clear the colorbuffer
-		glClearColor(0.05f, 0.05f, 0.05f, 1.0f);
+		glClearColor(0.5f, 0.5f, 0.5f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 		shader.Use();   // <-- Don't forget this one!
@@ -194,7 +192,7 @@ void DrawHere(Model* model, Shader* shader)
 	if (key1[GLFW_KEY_ENTER])
 	{
 		key1[GLFW_KEY_ENTER] = false;
-		thingz.push_back(new Thing(model, shader, camera, 30.0f, 0.18));
+		thingz.push_back(new Thing(model, shader, camera, 150.0f, 0.004));
 	}
 }
 
