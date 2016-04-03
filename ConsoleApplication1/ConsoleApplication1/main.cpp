@@ -44,8 +44,8 @@ void scroll_callback(GLFWwindow* window, double xoffset, double yoffset);
 void mouse_callback(GLFWwindow* window, double xpos, double ypos);
 void Do_Movement();
 
-void DrawHere(Model* model, Shader* shader);
-void DrawAll();
+void DrawHere(Model* model, Shader* shader, btDiscreteDynamicsWorld* w);
+void DrawAll(btDiscreteDynamicsWorld* world);
 
 // Camera
 Camera camera(glm::vec3(0.0f, 0.0f, 0.0f));
@@ -121,7 +121,11 @@ int main()
 
 
 	btCollisionShape* groundShape = new btStaticPlaneShape(btVector3(0, 1, 0), 0);
-	btDefaultMotionState* groundMotionState = new btDefaultMotionState(btTransform(btQuaternion(0, 0, 0, 1), btVector3(0, -200, 0)));
+	btDefaultMotionState* groundMotionState = new btDefaultMotionState(btTransform(btQuaternion(0, 0, 0, 1), btVector3(0, -20, 0)));
+	btRigidBody::btRigidBodyConstructionInfo groundRigidBodyCI(0, groundMotionState, groundShape, btVector3(0, 0, 0));
+	btRigidBody* groundRigidBody = new btRigidBody(groundRigidBodyCI);
+
+	dynamicsWorld->addRigidBody(groundRigidBody);
 
 
 
@@ -137,7 +141,7 @@ int main()
 		// Check and call events
 		glfwPollEvents();
 		Do_Movement();
-		DrawHere(&ourModel, &shader);
+		DrawHere(&ourModel, &shader, dynamicsWorld);
 
 
 		// Clear the colorbuffer
@@ -158,11 +162,16 @@ int main()
 		//glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
 		//ourModel.Draw(shader);
 		
-
-		DrawAll();
+		DrawAll(dynamicsWorld);
 
 		// Swap the buffers
 		glfwSwapBuffers(window);
+
+
+
+
+
+
 	}
 
 	glfwTerminate();
@@ -187,23 +196,6 @@ int main()
 
 #pragma region "User input"
 
-void DrawHere(Model* model, Shader* shader)
-{
-	if (key1[GLFW_KEY_ENTER])
-	{
-		key1[GLFW_KEY_ENTER] = false;
-		thingz.push_back(new Thing(model, shader, camera, 150.0f, 0.004));
-	}
-}
-
-void DrawAll()
-{
-	for (int i = 0; i < thingz.size(); i++)
-	{
-		thingz[i]->draw();
-	}
-}
-
 // Moves/alters the camera positions based on user input
 void Do_Movement()
 {
@@ -217,6 +209,26 @@ void Do_Movement()
 	if (keys[GLFW_KEY_D])
 		camera.ProcessKeyboard(RIGHT, deltaTime);
 }
+
+void DrawHere(Model* model, Shader* shader, btDiscreteDynamicsWorld* w)
+{
+	if (key1[GLFW_KEY_ENTER])
+	{
+		key1[GLFW_KEY_ENTER] = false;
+		thingz.push_back(new Thing(model, shader, camera, 40.0f, 0.2));
+		w->addRigidBody(thingz.back()->fallRigidBody);
+	}
+}
+
+void DrawAll(btDiscreteDynamicsWorld* world)
+{
+	for (int i = 0; i < thingz.size(); i++)
+	{
+		thingz[i]->draw(world);
+	}
+}
+
+
 
 
 // Is called whenever a key is pressed/released via GLFW
