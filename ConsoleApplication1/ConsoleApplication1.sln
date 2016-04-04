@@ -7,8 +7,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication1", "Cons
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BulletCollision", "..\Build\src\BulletCollision\BulletCollision.vcxproj", "{4A762A35-0F98-305E-9DB8-17969968F4C0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bullet3Dynamics", "..\Build\src\Bullet3Dynamics\Bullet3Dynamics.vcxproj", "{4D522074-213A-3C6A-B77C-FAF033DA7A2D}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinearMath", "..\Build\src\LinearMath\LinearMath.vcxproj", "{3B50DF8E-6B0A-3FDB-84A0-A2057D8E4FCF}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BulletDynamics", "..\Build\src\BulletDynamics\BulletDynamics.vcxproj", "{167CD497-AF37-3354-B517-905356C9A114}"
@@ -37,14 +35,6 @@ Global
 		{4A762A35-0F98-305E-9DB8-17969968F4C0}.Release|Win32.Build.0 = Release|Win32
 		{4A762A35-0F98-305E-9DB8-17969968F4C0}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
 		{4A762A35-0F98-305E-9DB8-17969968F4C0}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
-		{4D522074-213A-3C6A-B77C-FAF033DA7A2D}.Debug|Win32.ActiveCfg = Debug|Win32
-		{4D522074-213A-3C6A-B77C-FAF033DA7A2D}.Debug|Win32.Build.0 = Debug|Win32
-		{4D522074-213A-3C6A-B77C-FAF033DA7A2D}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
-		{4D522074-213A-3C6A-B77C-FAF033DA7A2D}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
-		{4D522074-213A-3C6A-B77C-FAF033DA7A2D}.Release|Win32.ActiveCfg = Release|Win32
-		{4D522074-213A-3C6A-B77C-FAF033DA7A2D}.Release|Win32.Build.0 = Release|Win32
-		{4D522074-213A-3C6A-B77C-FAF033DA7A2D}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
-		{4D522074-213A-3C6A-B77C-FAF033DA7A2D}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
 		{3B50DF8E-6B0A-3FDB-84A0-A2057D8E4FCF}.Debug|Win32.ActiveCfg = Debug|Win32
 		{3B50DF8E-6B0A-3FDB-84A0-A2057D8E4FCF}.Debug|Win32.Build.0 = Debug|Win32
 		{3B50DF8E-6B0A-3FDB-84A0-A2057D8E4FCF}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32

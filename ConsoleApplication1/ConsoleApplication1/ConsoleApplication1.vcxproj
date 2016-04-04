@@ -110,9 +110,6 @@
     <ClCompile Include="Thing.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Build\src\Bullet3Dynamics\Bullet3Dynamics.vcxproj">
-      <Project>{4d522074-213a-3c6a-b77c-faf033da7a2d}</Project>
-    </ProjectReference>
     <ProjectReference Include="..\..\Build\src\BulletCollision\BulletCollision.vcxproj">
       <Project>{4a762a35-0f98-305e-9db8-17969968f4c0}</Project>
     </ProjectReference>
