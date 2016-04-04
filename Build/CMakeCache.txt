@@ -258,7 +258,7 @@ INTERNAL_CREATE_MSVC_RELATIVE_PATH_PROJECTFILES:BOOL=OFF
 INTERNAL_UPDATE_SERIALIZATION_STRUCTURES:BOOL=OFF
 
 //Single output directory for building all libraries.
-LIBRARY_OUTPUT_PATH:PATH=C:/Users/Win/Documents/Bullet START HERE/Build/lib
+LIBRARY_OUTPUT_PATH:PATH=../../Build/lib
 
 //Dependencies for target
 LinearMath_LIB_DEPENDS:STATIC=

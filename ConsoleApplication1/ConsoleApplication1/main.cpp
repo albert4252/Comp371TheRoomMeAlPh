@@ -26,6 +26,7 @@
 #include "Camera.h"
 #include "Shader.h"
 #include "Thing.h"
+#include "myDebugDraw.h"
 
 #include "btBulletDynamicsCommon.h"
 
@@ -121,18 +122,20 @@ int main()
 
 
 	btCollisionShape* groundShape = new btStaticPlaneShape(btVector3(0, 1, 0), 0);
-	btDefaultMotionState* groundMotionState = new btDefaultMotionState(btTransform(btQuaternion(0, 0, 0, 1), btVector3(0, -20, 0)));
+	btDefaultMotionState* groundMotionState = new btDefaultMotionState(btTransform(btQuaternion(0, 0, 0, 1), btVector3(0, -200, 0)));
 	btRigidBody::btRigidBodyConstructionInfo groundRigidBodyCI(0, groundMotionState, groundShape, btVector3(0, 0, 0));
 	btRigidBody* groundRigidBody = new btRigidBody(groundRigidBodyCI);
 
 	dynamicsWorld->addRigidBody(groundRigidBody);
 
-
-
+	myDebugDrawer* dbugr = new myDebugDrawer();
+	dbugr->setDebugMode(0);
+	dynamicsWorld->setDebugDrawer(dbugr);
 
 	// Game loop
 	while (!glfwWindowShouldClose(window))
 	{
+		//dbugr->ToggleDebugFlag(btIDebugDraw::DBG_DrawWireframe);
 		// Set frame time
 		GLfloat currentFrame = glfwGetTime();
 		deltaTime = currentFrame - lastFrame;
@@ -161,7 +164,7 @@ int main()
 		//model = glm::scale(model, glm::vec3(0.2f));	// It's a bit too big for our scene, so scale it down
 		//glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
 		//ourModel.Draw(shader);
-		
+		dynamicsWorld->debugDrawWorld();
 		DrawAll(dynamicsWorld);
 
 		// Swap the buffers

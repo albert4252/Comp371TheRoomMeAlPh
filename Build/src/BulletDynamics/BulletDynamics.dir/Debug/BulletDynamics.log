@@ -1,45 +1,7 @@
-﻿Build started 2016-04-02 15:16:41.
+﻿Build started 2016-04-04 14:50:07.
      1>Project "C:\Users\Win\Documents\Bullet START HERE\Build\src\BulletDynamics\BulletDynamics.vcxproj" on node 4 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"..\..\..\Third_Party\bullet3-2.83.7\src" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _DEBUG /D _DEBUG /D USE_GRAPHICAL_BENCHMARK /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /arch:SSE /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"BulletDynamics.dir\Debug\\" /Fd"BulletDynamics.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\Character\btKinematicCharacterController.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\ConstraintSolver\btConeTwistConstraint.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\ConstraintSolver\btContactConstraint.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\ConstraintSolver\btFixedConstraint.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\ConstraintSolver\btGearConstraint.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\ConstraintSolver\btGeneric6DofConstraint.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\ConstraintSolver\btGeneric6DofSpringConstraint.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\ConstraintSolver\btGeneric6DofSpring2Constraint.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\ConstraintSolver\btHinge2Constraint.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\ConstraintSolver\btHingeConstraint.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\ConstraintSolver\btPoint2PointConstraint.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\ConstraintSolver\btNNCGConstraintSolver.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\ConstraintSolver\btSliderConstraint.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\ConstraintSolver\btSolve2LinearConstraint.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\ConstraintSolver\btTypedConstraint.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\ConstraintSolver\btUniversalConstraint.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\Dynamics\btRigidBody.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\Dynamics\btSimpleDynamicsWorld.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\Vehicle\btRaycastVehicle.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\Vehicle\btWheelInfo.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\Featherstone\btMultiBody.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\Featherstone\btMultiBodyConstraintSolver.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\Featherstone\btMultiBodyDynamicsWorld.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\Featherstone\btMultiBodyJointLimitConstraint.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\Featherstone\btMultiBodyConstraint.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\Featherstone\btMultiBodyPoint2Point.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\Featherstone\btMultiBodyJointMotor.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\MLCPSolvers\btDantzigLCP.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\MLCPSolvers\btMLCPSolver.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\MLCPSolvers\btLemkeAlgorithm.cpp"
-         btKinematicCharacterController.cpp
-         btConeTwistConstraint.cpp
-         btContactConstraint.cpp
-         btFixedConstraint.cpp
-         btGearConstraint.cpp
-         btGeneric6DofConstraint.cpp
-         btGeneric6DofSpringConstraint.cpp
-         btGeneric6DofSpring2Constraint.cpp
-         btHinge2Constraint.cpp
-         btHingeConstraint.cpp
-         btPoint2PointConstraint.cpp
-         btSequentialImpulseConstraintSolver.cpp
-         btNNCGConstraintSolver.cpp
-         btSliderConstraint.cpp
-         btSolve2LinearConstraint.cpp
-         btTypedConstraint.cpp
-         btUniversalConstraint.cpp
-         btDiscreteDynamicsWorld.cpp
-         btRigidBody.cpp
-         btSimpleDynamicsWorld.cpp
-         Generating Code...
-         Compiling...
-         btRaycastVehicle.cpp
-         btWheelInfo.cpp
-         btMultiBody.cpp
-         btMultiBodyConstraintSolver.cpp
-         btMultiBodyDynamicsWorld.cpp
-         btMultiBodyJointLimitConstraint.cpp
-     1>C:\Users\Win\Documents\bullet3-2.83.7\src\BulletDynamics\Featherstone\btMultiBodyJointLimitConstraint.cpp(114): warning C4244: 'initializing' : conversion from 'int' to 'btScalar', possible loss of data
-         btMultiBodyConstraint.cpp
-         btMultiBodyPoint2Point.cpp
-         btMultiBodyJointMotor.cpp
-         btDantzigLCP.cpp
-         btMLCPSolver.cpp
-         btLemkeAlgorithm.cpp
-         Generating Code...
-       Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Win\Documents\Bullet START HERE\Build\lib\Debug\BulletDynamics_Debug.lib" /NOLOGO  /machine:X86 BulletDynamics.dir\Debug\btKinematicCharacterController.obj
+     1>Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\..\Build\Build\lib\Debug\BulletDynamics_Debug.lib" /NOLOGO  /machine:X86 BulletDynamics.dir\Debug\btKinematicCharacterController.obj
          BulletDynamics.dir\Debug\btConeTwistConstraint.obj
          BulletDynamics.dir\Debug\btContactConstraint.obj
          BulletDynamics.dir\Debug\btFixedConstraint.obj
@@ -71,9 +33,9 @@
          BulletDynamics.dir\Debug\btDantzigLCP.obj
          BulletDynamics.dir\Debug\btMLCPSolver.obj
          BulletDynamics.dir\Debug\btLemkeAlgorithm.obj
-         BulletDynamics.vcxproj -> C:\Users\Win\Documents\Bullet START HERE\Build\lib\Debug\BulletDynamics_Debug.lib
+         BulletDynamics.vcxproj -> C:\Users\Win\Documents\Bullet START HERE\Build\src\BulletDynamics\..\..\Build\Build\lib\Debug\BulletDynamics_Debug.lib
      1>Done Building Project "C:\Users\Win\Documents\Bullet START HERE\Build\src\BulletDynamics\BulletDynamics.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:04.73
+Time Elapsed 00:00:00.28
