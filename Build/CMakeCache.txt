@@ -176,7 +176,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
 CMAKE_PROJECT_NAME:STATIC=BULLET_PHYSICS
 
 //RC compiler
-CMAKE_RC_COMPILER:FILEPATH=rc
+CMAKE_RC_COMPILER:FILEPATH=C:/Program Files (x86)/Windows Kits/8.1/bin/x86/rc.exe
 
 //Flags for Windows Resource Compiler.
 CMAKE_RC_FLAGS:STRING=' /DWIN32 '
@@ -201,10 +201,10 @@ CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
 
 //If set, runtime paths are not added when installing shared libraries,
 // but are added when building.
-CMAKE_SKIP_INSTALL_RPATH:BOOL=OFF
+CMAKE_SKIP_INSTALL_RPATH:BOOL=NO
 
 //If set, runtime paths are not added when using shared libraries.
-CMAKE_SKIP_RPATH:BOOL=OFF
+CMAKE_SKIP_RPATH:BOOL=NO
 
 //Flags used by the linker during the creation of static libraries.
 CMAKE_STATIC_LINKER_FLAGS:STRING= /machine:X86
@@ -225,7 +225,7 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 // .SILENT directive, and all commands will be echoed to the console
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
-CMAKE_VERBOSE_MAKEFILE:BOOL=OFF
+CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Dependencies for target
 ConvexDecomposition_LIB_DEPENDS:STATIC=
@@ -258,7 +258,7 @@ INTERNAL_CREATE_MSVC_RELATIVE_PATH_PROJECTFILES:BOOL=OFF
 INTERNAL_UPDATE_SERIALIZATION_STRUCTURES:BOOL=OFF
 
 //Single output directory for building all libraries.
-LIBRARY_OUTPUT_PATH:PATH=../../Build/lib
+LIBRARY_OUTPUT_PATH:PATH=C:/Users/Win/Documents/Bullet START HERE/Build/lib
 
 //Dependencies for target
 LinearMath_LIB_DEPENDS:STATIC=
@@ -291,7 +291,7 @@ USE_MSVC_FAST_FLOATINGPOINT:BOOL=ON
 USE_MSVC_INCREMENTAL_LINKING:BOOL=OFF
 
 //Use MSVC Runtime Library DLL (/MD or /MDd)
-USE_MSVC_RUNTIME_LIBRARY_DLL:BOOL=ON
+USE_MSVC_RUNTIME_LIBRARY_DLL:BOOL=OFF
 
 //Use MSVC /arch:sse option
 USE_MSVC_SSE:BOOL=ON

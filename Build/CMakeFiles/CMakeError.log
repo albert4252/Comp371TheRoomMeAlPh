@@ -1,0 +1,111 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+1
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2016-04-07 11:43:03.
+Project "C:\Users\Win\Documents\Bullet START HERE\Build\CMakeFiles\3.5.0\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+InitializeBuildStatus:
+  Touching "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+C:\Users\Win\Documents\Bullet START HERE\Build\CMakeFiles\3.5.0\CompilerIdC\CMakeCCompilerId.c : fatal error C1083: Cannot open compiler generated file: 'Debug\CMakeCCompilerId.obj': Permission denied [C:\Users\Win\Documents\Bullet START HERE\Build\CMakeFiles\3.5.0\CompilerIdC\CompilerIdC.vcxproj]
+FileTracker : error FTK1011: could not create the new file tracking log file: C:\Users\Win\Documents\Bullet START HERE\Build\CMakeFiles\3.5.0\CompilerIdC\Debug\CompilerIdC.tlog\CL.read.1.tlog. The file exists. [C:\Users\Win\Documents\Bullet START HERE\Build\CMakeFiles\3.5.0\CompilerIdC\CompilerIdC.vcxproj]
+  
+  
+  
+FileTracker : error FTK1011: could not create the new file tracking log file: C:\Users\Win\Documents\Bullet START HERE\Build\CMakeFiles\3.5.0\CompilerIdC\Debug\CompilerIdC.tlog\CL.write.1.tlog. The file exists. [C:\Users\Win\Documents\Bullet START HERE\Build\CMakeFiles\3.5.0\CompilerIdC\CompilerIdC.vcxproj]
+  
+  
+  
+Done Building Project "C:\Users\Win\Documents\Bullet START HERE\Build\CMakeFiles\3.5.0\CompilerIdC\CompilerIdC.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Win\Documents\Bullet START HERE\Build\CMakeFiles\3.5.0\CompilerIdC\CompilerIdC.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\Win\Documents\Bullet START HERE\Build\CMakeFiles\3.5.0\CompilerIdC\CMakeCCompilerId.c : fatal error C1083: Cannot open compiler generated file: 'Debug\CMakeCCompilerId.obj': Permission denied [C:\Users\Win\Documents\Bullet START HERE\Build\CMakeFiles\3.5.0\CompilerIdC\CompilerIdC.vcxproj]
+  FileTracker : error FTK1011: could not create the new file tracking log file: C:\Users\Win\Documents\Bullet START HERE\Build\CMakeFiles\3.5.0\CompilerIdC\Debug\CompilerIdC.tlog\CL.read.1.tlog. The file exists. [C:\Users\Win\Documents\Bullet START HERE\Build\CMakeFiles\3.5.0\CompilerIdC\CompilerIdC.vcxproj]
+  FileTracker : error FTK1011: could not create the new file tracking log file: C:\Users\Win\Documents\Bullet START HERE\Build\CMakeFiles\3.5.0\CompilerIdC\Debug\CompilerIdC.tlog\CL.write.1.tlog. The file exists. [C:\Users\Win\Documents\Bullet START HERE\Build\CMakeFiles\3.5.0\CompilerIdC\CompilerIdC.vcxproj]
+
+    0 Warning(s)
+    3 Error(s)
+
+Time Elapsed 00:00:00.35
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+1
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2016-04-07 11:43:03.
+Project "C:\Users\Win\Documents\Bullet START HERE\Build\CMakeFiles\3.5.0\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+C:\Users\Win\Documents\Bullet START HERE\Build\CMakeFiles\3.5.0\CompilerIdC\CMakeCCompilerId.c : fatal error C1083: Cannot open compiler generated file: 'Debug\CMakeCCompilerId.obj': Permission denied [C:\Users\Win\Documents\Bullet START HERE\Build\CMakeFiles\3.5.0\CompilerIdC\CompilerIdC.vcxproj]
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(341,5): error MSB6003: The specified task executable "CL.exe" could not be run. The process cannot access the file 'C:\Users\Win\Documents\Bullet START HERE\Build\CMakeFiles\3.5.0\CompilerIdC\Debug\CompilerIdC.tlog\cl.write.1.tlog' because it is being used by another process. [C:\Users\Win\Documents\Bullet START HERE\Build\CMakeFiles\3.5.0\CompilerIdC\CompilerIdC.vcxproj]
+Done Building Project "C:\Users\Win\Documents\Bullet START HERE\Build\CMakeFiles\3.5.0\CompilerIdC\CompilerIdC.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Win\Documents\Bullet START HERE\Build\CMakeFiles\3.5.0\CompilerIdC\CompilerIdC.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\Win\Documents\Bullet START HERE\Build\CMakeFiles\3.5.0\CompilerIdC\CMakeCCompilerId.c : fatal error C1083: Cannot open compiler generated file: 'Debug\CMakeCCompilerId.obj': Permission denied [C:\Users\Win\Documents\Bullet START HERE\Build\CMakeFiles\3.5.0\CompilerIdC\CompilerIdC.vcxproj]
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(341,5): error MSB6003: The specified task executable "CL.exe" could not be run. The process cannot access the file 'C:\Users\Win\Documents\Bullet START HERE\Build\CMakeFiles\3.5.0\CompilerIdC\Debug\CompilerIdC.tlog\cl.write.1.tlog' because it is being used by another process. [C:\Users\Win\Documents\Bullet START HERE\Build\CMakeFiles\3.5.0\CompilerIdC\CompilerIdC.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.35
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+1
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+MSBUILD : error MSB1009: Project file does not exist.
+Switch: CompilerIdCXX.vcxproj
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+1
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+MSBUILD : error MSB1009: Project file does not exist.
+Switch: CompilerIdCXX.vcxproj
+
+

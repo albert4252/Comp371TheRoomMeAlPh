@@ -6,7 +6,7 @@
 
 myDebugDrawer::myDebugDrawer() : btIDebugDraw()
 {
-	setDebugMode(DBG_DrawWireframe);
+	//setDebugMode(DBG_DrawWireframe);
 	glGenVertexArrays(1, &VAO);
 	glGenBuffers(1, &VBO);
 	glBindVertexArray(VAO);
@@ -42,8 +42,6 @@ void myDebugDrawer::drawLine(const btVector3 &from, const btVector3 &to, const b
 	vertices[5] = to.z();
 
 
-	std::cout << "Drawing ling from (" << vertices[0] << ", " << vertices[1] << ", " << vertices[2] << ")\n";
-	std::cout << "to (" << vertices[0] << ", " << vertices[1] << ", " << vertices[2] << ")\n";
 	//do some shit with VBO's and shit
 	///we need to store an array/vector of floats
 

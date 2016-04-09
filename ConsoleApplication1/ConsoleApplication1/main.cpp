@@ -1,7 +1,5 @@
 #pragma once
-
 #include "stdafx.h"
-
 #include "glew.h"		// include GL Extension Wrangler
 #include "glfw3.h"  // include GLFW helper library
 #include "glm.hpp"
@@ -26,7 +24,6 @@
 #include "Camera.h"
 #include "Shader.h"
 #include "Thing.h"
-#include "myDebugDraw.h"
 
 #include "btBulletDynamicsCommon.h"
 
@@ -45,8 +42,8 @@ void scroll_callback(GLFWwindow* window, double xoffset, double yoffset);
 void mouse_callback(GLFWwindow* window, double xpos, double ypos);
 void Do_Movement();
 
-void DrawHere(Model* model, Shader* shader, btDiscreteDynamicsWorld* w);
-void DrawAll(btDiscreteDynamicsWorld* world);
+void DrawHere(Model* model, Shader* shader);
+void DrawAll();
 
 // Camera
 Camera camera(glm::vec3(0.0f, 0.0f, 0.0f));
@@ -67,18 +64,25 @@ std::vector<Thing*> thingz;
 int main()
 {
 	//Build the broadphase
-	btBroadphaseInterface* broadphase = new btDbvtBroadphase();
+	//btBroadphaseInterface* broadphase = new btDbvtBroadphase();
 
 	// Set up the collision configuration and dispatcher
-	btDefaultCollisionConfiguration* collisionConfiguration = new btDefaultCollisionConfiguration();
-	btCollisionDispatcher* dispatcher = new btCollisionDispatcher(collisionConfiguration);
+	//btDefaultCollisionConfiguration* collisionConfiguration = new btDefaultCollisionConfiguration();
+	//btCollisionDispatcher* dispatcher = new btCollisionDispatcher(collisionConfiguration);
 
 	// The actual physics solver
-	btSequentialImpulseConstraintSolver* solver = new btSequentialImpulseConstraintSolver;
+	//btSequentialImpulseConstraintSolver* solver = new btSequentialImpulseConstraintSolver;
 
 	// The world.
-	btDiscreteDynamicsWorld* dynamicsWorld = new btDiscreteDynamicsWorld(dispatcher, broadphase, solver, collisionConfiguration);
-	dynamicsWorld->setGravity(btVector3(0, -10, 0));
+	//btDiscreteDynamicsWorld* dynamicsWorld = new btDiscreteDynamicsWorld(dispatcher, broadphase, solver, collisionConfiguration);
+	//dynamicsWorld->setGravity(btVector3(0, -10, 0));
+
+	//Do_everything_else_here
+
+
+
+
+
 
 
 	// Init GLFW
@@ -113,29 +117,18 @@ int main()
 	Shader shader("model_loading.vs", "model_loading.frag");
 
 	// Load models
-	Model ourModel("mesa.obj");
+	Model ourModel("nanosuit.obj");
+
+	//Thing thing(&ourModel, &shader, camera);
+
+	//thingz.push_back(&thing);
 
 	// Draw in wireframe
 	//glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
 
-
-
-
-	btCollisionShape* groundShape = new btStaticPlaneShape(btVector3(0, 1, 0), 0);
-	btDefaultMotionState* groundMotionState = new btDefaultMotionState(btTransform(btQuaternion(0, 0, 0, 1), btVector3(0, -200, 0)));
-	btRigidBody::btRigidBodyConstructionInfo groundRigidBodyCI(0, groundMotionState, groundShape, btVector3(0, 0, 0));
-	btRigidBody* groundRigidBody = new btRigidBody(groundRigidBodyCI);
-
-	dynamicsWorld->addRigidBody(groundRigidBody);
-
-	myDebugDrawer* dbugr = new myDebugDrawer();
-	dbugr->setDebugMode(0);
-	dynamicsWorld->setDebugDrawer(dbugr);
-
 	// Game loop
 	while (!glfwWindowShouldClose(window))
 	{
-		//dbugr->ToggleDebugFlag(btIDebugDraw::DBG_DrawWireframe);
 		// Set frame time
 		GLfloat currentFrame = glfwGetTime();
 		deltaTime = currentFrame - lastFrame;
@@ -144,11 +137,11 @@ int main()
 		// Check and call events
 		glfwPollEvents();
 		Do_Movement();
-		DrawHere(&ourModel, &shader, dynamicsWorld);
+		DrawHere(&ourModel, &shader);
 
 
 		// Clear the colorbuffer
-		glClearColor(0.5f, 0.5f, 0.5f, 1.0f);
+		glClearColor(0.05f, 0.05f, 0.05f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 		shader.Use();   // <-- Don't forget this one!
@@ -164,17 +157,12 @@ int main()
 		//model = glm::scale(model, glm::vec3(0.2f));	// It's a bit too big for our scene, so scale it down
 		//glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
 		//ourModel.Draw(shader);
-		dynamicsWorld->debugDrawWorld();
-		DrawAll(dynamicsWorld);
+		
+
+		DrawAll();
 
 		// Swap the buffers
 		glfwSwapBuffers(window);
-
-
-
-
-
-
 	}
 
 	glfwTerminate();
@@ -188,16 +176,33 @@ int main()
 
 
 
-	delete dynamicsWorld;
-	delete solver;
-	delete dispatcher;
-	delete collisionConfiguration;
-	delete broadphase;
+	//delete dynamicsWorld;
+	//delete solver;
+	//delete dispatcher;
+	//delete collisionConfiguration;
+	//delete broadphase;
 
 	return 0;
 }
 
 #pragma region "User input"
+
+void DrawHere(Model* model, Shader* shader)
+{
+	if (key1[GLFW_KEY_ENTER])
+	{
+		key1[GLFW_KEY_ENTER] = false;
+		thingz.push_back(new Thing(model, shader, camera, 30.0f, 0.18));
+	}
+}
+
+void DrawAll()
+{
+	for (int i = 0; i < thingz.size(); i++)
+	{
+		thingz[i]->draw();
+	}
+}
 
 // Moves/alters the camera positions based on user input
 void Do_Movement()
@@ -212,26 +217,6 @@ void Do_Movement()
 	if (keys[GLFW_KEY_D])
 		camera.ProcessKeyboard(RIGHT, deltaTime);
 }
-
-void DrawHere(Model* model, Shader* shader, btDiscreteDynamicsWorld* w)
-{
-	if (key1[GLFW_KEY_ENTER])
-	{
-		key1[GLFW_KEY_ENTER] = false;
-		thingz.push_back(new Thing(model, shader, camera, 40.0f, 0.2));
-		w->addRigidBody(thingz.back()->fallRigidBody);
-	}
-}
-
-void DrawAll(btDiscreteDynamicsWorld* world)
-{
-	for (int i = 0; i < thingz.size(); i++)
-	{
-		thingz[i]->draw(world);
-	}
-}
-
-
 
 
 // Is called whenever a key is pressed/released via GLFW

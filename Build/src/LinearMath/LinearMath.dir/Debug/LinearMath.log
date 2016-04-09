@@ -1,7 +1,7 @@
-﻿Build started 2016-04-04 15:10:12.
-     1>Project "C:\Users\Win\Documents\Bullet START HERE\Build\src\LinearMath\LinearMath.vcxproj" on node 2 (Build target(s)).
+﻿Build started 2016-04-07 15:43:10.
+     1>Project "C:\Users\Win\Documents\Bullet START HERE\Build\src\LinearMath\LinearMath.vcxproj" on node 3 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"..\..\..\Third_Party\bullet3-2.83.7\src" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _DEBUG /D _DEBUG /D USE_GRAPHICAL_BENCHMARK /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /arch:SSE /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"LinearMath.dir\Debug\\" /Fd"LinearMath.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\Users\Win\Documents\bullet3-2.83.7\src\LinearMath\btAlignedAllocator.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\LinearMath\btConvexHull.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\LinearMath\btConvexHullComputer.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\LinearMath\btGeometryUtil.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\LinearMath\btPolarDecomposition.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\LinearMath\btQuickprof.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\LinearMath\btSerializer.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\LinearMath\btVector3.cpp"
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Win\Documents\bullet3-2.83.7\src" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _DEBUG /D _DEBUG /D USE_GRAPHICAL_BENCHMARK /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /arch:SSE /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"LinearMath.dir\Debug\\" /Fd"LinearMath.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\Users\Win\Documents\bullet3-2.83.7\src\LinearMath\btAlignedAllocator.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\LinearMath\btConvexHull.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\LinearMath\btConvexHullComputer.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\LinearMath\btGeometryUtil.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\LinearMath\btPolarDecomposition.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\LinearMath\btQuickprof.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\LinearMath\btSerializer.cpp" "C:\Users\Win\Documents\bullet3-2.83.7\src\LinearMath\btVector3.cpp"
          btAlignedAllocator.cpp
          btConvexHull.cpp
          btConvexHullComputer.cpp
@@ -12,7 +12,7 @@
          btVector3.cpp
          Generating Code...
        Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\..\Build\Build\lib\Debug\LinearMath_Debug.lib" /NOLOGO  /machine:X86 LinearMath.dir\Debug\btAlignedAllocator.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Win\Documents\Bullet START HERE\Build\lib\Debug\LinearMath_Debug.lib" /NOLOGO  /machine:X86 LinearMath.dir\Debug\btAlignedAllocator.obj
          LinearMath.dir\Debug\btConvexHull.obj
          LinearMath.dir\Debug\btConvexHullComputer.obj
          LinearMath.dir\Debug\btGeometryUtil.obj
@@ -20,9 +20,9 @@
          LinearMath.dir\Debug\btQuickprof.obj
          LinearMath.dir\Debug\btSerializer.obj
          LinearMath.dir\Debug\btVector3.obj
-         LinearMath.vcxproj -> C:\Users\Win\Documents\Bullet START HERE\Build\src\LinearMath\..\..\Build\Build\lib\Debug\LinearMath_Debug.lib
+         LinearMath.vcxproj -> C:\Users\Win\Documents\Bullet START HERE\Build\lib\Debug\LinearMath_Debug.lib
      1>Done Building Project "C:\Users\Win\Documents\Bullet START HERE\Build\src\LinearMath\LinearMath.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.84
+Time Elapsed 00:00:00.90
